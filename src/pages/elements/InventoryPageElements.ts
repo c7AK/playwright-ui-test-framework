@@ -1,0 +1,16 @@
+export const InventoryPageElements = {
+  inventoryContainer: '[data-test="inventory-container"]',
+  inventoryList: '.inventory_list',
+  inventoryItem: '.inventory_item',
+  itemName: '.inventory_item_name',
+  itemPrice: '.inventory_item_price',
+  itemDescription: '.inventory_item_desc',
+  addToCartButton: '[data-test^="add-to-cart"]',
+  removeButton: '[data-test^="remove"]',
+  sortDropdown: '.product_sort_container',
+  shoppingCartBadge: '.shopping_cart_badge',
+  shoppingCartLink: '.shopping_cart_link',
+  burgerMenuButton: '#react-burger-menu-btn',
+  logoutLink: '#logout_sidebar_link',
+  pageTitle: '.title',
+} as const;
