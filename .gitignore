@@ -1,4 +1,7 @@
 .idea
 .claude
 test-results
-/node_modules
+.DS_Store
+node_modules/*
+test-results/
+playwright-report
